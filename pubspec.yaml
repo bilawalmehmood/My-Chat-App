@@ -40,6 +40,11 @@ dependencies:
   get: ^4.6.5
   rive: ^0.9.1
   flutter_svg: ^1.1.6
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+  cloud_firestore: ^4.3.1
+ 
+ 
 
 dev_dependencies:
   flutter_test:

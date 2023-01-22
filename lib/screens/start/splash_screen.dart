@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:my_chat_app/res/app_constants.dart';
-import 'package:my_chat_app/screens/auth/login_screen.dart';
+import 'package:my_chat_app/screens/auth/on_board_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 4), () async {
-      Get.offAll(() => const LoginScreen());
+      Get.offAllNamed(OnBoardScreen.name);
     });
   }
 

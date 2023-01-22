@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542716169387",
+    "project_id": "my-chat-app-78ec2",
+    "storage_bucket": "my-chat-app-78ec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542716169387:android:7056dd4d7535ab82c6bbee",
+        "android_client_info": {
+          "package_name": "com.codewithbilawal.my_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542716169387-ve1vbqm2uu295rh08u9b3hm6rufdp4l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwZxPx99VG4MdlX25TvVysDH-jNVt-oDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542716169387-ve1vbqm2uu295rh08u9b3hm6rufdp4l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

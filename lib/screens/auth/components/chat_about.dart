@@ -1,6 +1,5 @@
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/widgets.dart';
+import 'package:my_chat_app/res/app_constants.dart';
 
 class ChatAbout extends StatelessWidget {
   const ChatAbout({super.key});
@@ -19,11 +18,19 @@ class ChatAbout extends StatelessWidget {
                 Text(
                   "lets start chat",
                   style: TextStyle(
-                      fontSize: 50, fontFamily: "Poppins", height: 1.2),
+                    fontSize: 50,
+                    fontFamily: "Poppins",
+                    height: 1.2,
+                    color: AppConstants.primeryColor,
+                  ),
                 ),
-                SizedBox(height: 30),
+                SizedBox(height: 70),
                 Text(
-                    "Everyone was exceptionally friendly as hundreds of bicyclists wandered about, chatting and smiling, with a hint of nervous excitement in their voices.")
+                  "Everyone was exceptionally friendly as hundreds of bicyclists wandered about, chatting and smiling, with a hint of nervous excitement in their voices.",
+                  style: TextStyle(
+                    color: AppConstants.primeryColor,
+                  ),
+                )
               ],
             ),
           ),
